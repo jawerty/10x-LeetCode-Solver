@@ -1,0 +1,27 @@
+{
+  "name": "LeetCode-Solver",
+  "description": "",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+      "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["webRequest", "storage"],
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+   {
+     "resources": ["contentScript.js"],
+     "matches": ["https://*/*"]
+   }
+ ]
+}

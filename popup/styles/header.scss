@@ -1,0 +1,19 @@
+.header {
+	width: 100%;
+	padding: 10px;
+
+	h1 {
+		font-family: 20px;
+		color: rgb(121,189,154);
+		letter-spacing: 1px;
+
+	}
+
+	.settings__icon {
+		width: 25px;
+		height: 25px;
+		* {
+			stroke: rgb(11,72,107);
+		}
+	}
+}

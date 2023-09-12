@@ -1,0 +1,92 @@
+.solver-form {
+	.solver-form__no-problem-state {
+		text-align: center;
+		.solver-form__no-problem-state__title {
+			color: rgb(11,72,107);
+			line-height: 24px;
+			font-size: 20px;
+			width: 250px;
+		}
+	}
+
+	.solver-form__info-list{
+		padding-bottom: 10px;
+		border-bottom: 1px solid rgb(150,150,150);
+
+		.solver-form__info-item {
+			padding: 10px;
+			margin-left: 20px;
+			label {
+				color: black;
+				line-height: 20px;
+				font-size: 16px;
+				font-family: sans-serif;
+				margin-right: 10px;
+			}
+
+			span {
+				color: black;
+				line-height: 16px;
+				font-size: 14px;
+				font-family: sans-serif;
+
+			}
+		}
+	}
+
+	.solver-form__form-content {
+		width: 100%;
+		margin: 10px 0px;
+
+		.solver-form__submit {
+			font-size: 16px;
+			background-color: rgb(11,72,107);
+			color: white;
+			border: 1px solid rgb(121,189,154);
+			border-radius: 10px;
+			padding: 10px;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+
+	.solver-form__solution {
+		.solver-form__solution-header {
+			color: rgb(11,72,107);
+			line-height: 24px;
+			font-size: 20px;
+			margin: 10px 0px;
+		}
+		textarea {
+			width: 100%;
+			height: 300px;
+			font-size: 14px;
+			border-radius: 3px;
+
+		}
+	}
+
+	.solver-form__loading {
+		padding: 20px;
+		img {
+			width: 100px;
+		}
+	}
+
+	.solver-form__options {
+		.solver-form__options-btn {
+			margin-top: 10px;
+			cursor: pointer;
+			margin-right: 10px;
+			font-size: 14px;
+			background-color: rgb(121,189,154);
+			color: white;
+			border: 1px solid rgb(121,189,154);
+			border-radius: 10px;
+			padding: 10px;
+			width: fit-content;
+			margin-bottom: 10px;
+		}	
+	}
+	
+}
