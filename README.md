@@ -4,10 +4,16 @@ A chrome extension that solves leet code problems for you
 Build during this live stream in 6 hours -> [Youtube Live Stream](https://youtube.com/live/3cCQ_geKWRk)
 
 # How to use
-### 1) Install the packages
+### 1) Install the packages 
+*(you need the lastest version of node)*
+
 Run npm install (or yarn)
 ```
 $ npm install
+```
+Build the frontend
+```
+$ npm run build
 ```
 
 ### 3) Load the extension
